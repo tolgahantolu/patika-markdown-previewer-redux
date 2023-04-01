@@ -16,8 +16,6 @@ const Panels = () => {
 
   return (
     <>
-      <div>{marked(textHelp)}</div>
-      <div>{marked(textUser)}</div>
       <div className="mt-5 w-full flex flex-row justify-center items-center gap-6">
         {/* left panel */}
         <textarea
