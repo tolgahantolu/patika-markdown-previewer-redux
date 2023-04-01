@@ -1,7 +1,11 @@
+import { Header, Help, Panels } from "./components";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="py-10 w-[1020px] mx-auto">
+      <Help />
+      <Header />
+      <Panels />
     </div>
   );
 }
